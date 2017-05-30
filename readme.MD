@@ -7,6 +7,7 @@ hexo clean     清除生成文件
 hexo g		   生成文件
 hexo d		  发布到jinshw.github.io上
 hexo serve		启动服务
+hexo new <title>  新建文章 
 
 简写
 hexo g：hexo generate
