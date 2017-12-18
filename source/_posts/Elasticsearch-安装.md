@@ -45,6 +45,7 @@ elasticsearch-head 不能连接到elasticsearch服务，因为跨域
     http.cors.enabled: true
     http.cors.allow-origin: "*"
 
+
 ![upload successful](/images/elasticsearch/es.png)
 ![upload successful](/images/elasticsearch/es-head.png)
 
