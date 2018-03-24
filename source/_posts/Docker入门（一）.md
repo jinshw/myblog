@@ -27,7 +27,7 @@ Docker的主要用途，目前有三大类：
 
 ​	Docker使用一个客户端服务器架构。Docker客户端和Docker守护进程交流，Docker守护进程做非常重要的工作，构建，运行和分发你的Docker容器。Docker客户端和守护进程可以运行在同样的系统上，或者是你可以连接一个Docker客户端到一个远程Docker守护进程中。Docker客户端和守护进程通过sockets或通过RESTful API进行沟通交流。
 
-![](.\Docker入门（一）\jiagou.jpg)
+![](/images/jiagou.jpg)
 
 ## Docker 守护进程
 

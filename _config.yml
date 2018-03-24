@@ -68,7 +68,14 @@ theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/jinshw/jinshw.github.io.git
-  branch: master
+#deploy:
+  # type: git
+  # repo: https://github.com/jinshw/jinshw.github.io.git
+  # branch: master
+
+deploy: 
+   type: git
+   repo: https://jinshw:jin6150090@github.com/jinshw/jinshw.github.io.git
+   branch: master
+
+
