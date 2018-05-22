@@ -50,3 +50,19 @@ elasticsearch-head 不能连接到elasticsearch服务，因为跨域
 ![upload successful](/images/elasticsearch/es-head.png)
 
 
+# 安装 marvel 插件
+* 在elasticsearch 中运行：         bin/elasticsearch-plugin.bat install x-pack
+
+~~~
+安装遇到：Continue with installation? [y/N]y
+~~~
+
+* 在Kibana上安装X-Pack
+    bin/kibana-plugin install x-pack
+
+* 访问
+    在浏览器上输入： http://localhost:5601/ ，可以打开Kibana，此时需要输入用户名和密码登录，默认分别是 elastic 和 changeme
+
+* 修改密码
+![upload successful](/images/elasticsearch/es-change.png)
+
