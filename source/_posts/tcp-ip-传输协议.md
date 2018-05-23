@@ -7,24 +7,24 @@ tags: [tcp/ip,传输协议]
 **定义：**Transmission Control Protocol/Internet Protocol的简写，中译名为传输控制协议/因特网互联协议，又名**网络通讯协议**，是Internet最基本的协议、Internet国际互联网络的基础，由网络层的**IP协议**和**传输层的TCP协议**组成
 <!-- more -->
 
-![](/images/import.png)
+![](/images/http/tcp-ip.jpg)
 
 1. TCP/IP参考模型的层次结构
 
-   ![](/images/import2.png)
+   ![](/images/http/tcp-ip2.jpg)
 
 TCP/IP报文格式  
 1、IP报文格式
 
 IP协议是TCP/IP协议族中最为核心的协议。它提供不可靠、无连接的服务，也即依赖其他层的协议进行差错控制。在局域网环境，IP协议往往被封装在以太网帧中传送。而所有的TCP、UDP、ICMP、IGMP数据都被封装在IP数据报中传送。如图2-3所示：
 
-![](http://images.cnblogs.com/cnblogs_com/bluetzar/IPPackage.jpg)
+![](/images/http/tcp-head1.jpg)
 
 ```
     图2-3　 TCP/IP报文封装
 ```
 
-![](/images/import3.png)  
+![](/images/http/tcp-head.jpg)  
                                              图2-4　 IP头部格式
 
 ---
@@ -41,6 +41,6 @@ TCP会话通过三次握手来初始化。三次握手的目标是使数据段�
 
 至此为止，TCP会话的三次握手完成。接下来，源主机和目标主机可以互相收发数据。整个过程可用图2-8表示。
 
-![](/images/import7.png)
+![](/images/http/tcp3.jpg)
 
-![](/images/import6.png)
+![](/images/http/tcp4.jpg)

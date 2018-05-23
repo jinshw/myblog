@@ -5,7 +5,8 @@ tags: [http,协议]
 ---
 ## HTTP 请求和响应报文模型
 
-![http报文模型](\images\网络\1525857578402.png)
+![http报文模型](\images\http\http-head-request.png)
+![http报文模型](\images\http\http-head-response.png)
 
 
 通常HTTP消息包括客户机向服务器的请求消息和服务器向客户机的响应消息。

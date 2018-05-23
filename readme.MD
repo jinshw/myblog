@@ -23,7 +23,11 @@ localhost:4000/admin
 ## 标签
 tags: [HTML5,移动端,适配]
 
-## 
+## 注意
+* 所有新创建的文章和引用的图片都需要放在 `source`文件夹下。
+* hexo-theme-next 主题下运行慢：
+    修改该主题下的_config.yml中的host：
+    host: //fonts.lug.ustc.edu.cn #     fonts.lug.ustc.edu.cn是中科大的源。
 
 
 
